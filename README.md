@@ -24,15 +24,15 @@ This is a simple Todo List application built with Node.js and Express.js. The ap
    npm start
    ```
 
-The server will start on `http://localhost:3000`.
+The server will start on `http://localhost:5000`.
 
 ## API Endpoints
 
-- `GET /api/todos`: Retrieve the list of todos.
-- `POST /api/todos`: Add a new todo.
-- `PUT /api/todos/:id`: Update an existing todo.
-- `DELETE /api/todos/:id`: Delete a todo.
-- `PATCH /api/todos/:id/done`: Mark a todo as completed.
+- `GET /todos`: Retrieve the list of todos.
+- `POST /todos/add`: Add a new todo.
+- `PUT /todos/update/:id`: Update an existing todo.
+- `DELETE /todos/delete/:id`: Delete a todo.
+- `PATCH /todos/:id/done`: Mark a todo as completed.
 
 ## Implementation Details
 
