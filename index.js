@@ -13,7 +13,7 @@ dotenv.config();
 connectDB();
 
 app.use(express.json());
-app.use("/", todoRoutes);
+app.use("/todos", todoRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
