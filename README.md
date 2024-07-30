@@ -10,7 +10,7 @@ This is a simple Todo List application built with Node.js and Express.js. The ap
 
    ```bash
    git clone <repository-url>
-   cd todo-app
+   cd To do list
    ```
 
 2. Install dependencies:
